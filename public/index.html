@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodie Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showUser()">
+
+    <header class="topbar">
+        <div class="logo-area">
+            <div class="logo-box">FH</div>
+            <h1>Foodie Hub</h1>
+        </div>
+
+        <div class="location-area">
+            <span>📍 Pune, Maharashtra</span>
+        </div>
+
+        <div class="search-area">
+            <input type="text" id="searchInput" placeholder="Search for restaurant and food" onkeypress="handleSearch(event)">
+        </div>
+
+        <div class="profile-area">
+            <a href="login.html" class="profile-circle" id="profile-link">👤</a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-overlay">
+            <div class="banner-text">
+                <h2>Order Food Online in Pune</h2>
+                <p>Fresh food, fast delivery, and easy ordering</p>
+                <a href="menu.html?category=Pizza" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mind-section">
+        <div class="section-head">
+            <h3>What's on your mind?</h3>
+        </div>
+
+        <div class="category-row">
+            <a href="menu.html?category=Pizza" class="category-card">
+                <div class="circle-img">🍕</div>
+                <p>Pizza</p>
+            </a>
+
+            <a href="menu.html?category=Burger" class="category-card">
+                <div class="circle-img">🍔</div>
+                <p>Burger</p>
+            </a>
+
+            <a href="menu.html?category=Noodles" class="category-card">
+                <div class="circle-img">🍜</div>
+                <p>Noodles</p>
+            </a>
+
+            <a href="menu.html?category=Dessert" class="category-card">
+                <div class="circle-img">🍨</div>
+                <p>Dessert</p>
+            </a>
+
+            <a href="menu.html?category=Sandwich" class="category-card">
+                <div class="circle-img">🥪</div>
+                <p>Sandwich</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="popular-section">
+        <h3>Popular Restaurants</h3>
+
+        <div class="menu-grid">
+            <div class="food-card">
+                <div class="food-img">🍝</div>
+                <h4>Toscano</h4>
+                <p>Italian food, pasta, pizza</p>
+                <span>4.5 ★</span><br>
+                <a href="restaurant.html?name=Toscano"><button>View Restaurant</button></a>
+            </div>
+
+            <div class="food-card">
+                <div class="food-img">🍣</div>
+                <h4>Tsuki</h4>
+                <p>Japanese food, sushi, noodles</p>
+                <span>4.4 ★</span><br>
+                <a href="restaurant.html?name=Tsuki"><button>View Restaurant</button></a>
+            </div>
+
+            <div class="food-card">
+                <div class="food-img">🍽️</div>
+                <h4>Aasmana</h4>
+                <p>Fine dining, Indian food</p>
+                <span>4.6 ★</span><br>
+                <a href="restaurant.html?name=Aasmana"><button>View Restaurant</button></a>
+            </div>
+
+            <div class="food-card">
+                <div class="food-img">🥘</div>
+                <h4>Paasha</h4>
+                <p>Luxury dining, North Indian</p>
+                <span>4.7 ★</span><br>
+                <a href="restaurant.html?name=Paasha"><button>View Restaurant</button></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

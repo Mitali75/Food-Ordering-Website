@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant - Foodie Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showUser(); loadRestaurantPage()">
+
+    <header class="topbar">
+        <div class="logo-area">
+            <div class="logo-box">FH</div>
+            <h1>Foodie Hub</h1>
+        </div>
+
+        <div class="location-area">
+            <span>📍 Pune, Maharashtra</span>
+        </div>
+
+        <div class="search-area">
+            <input type="text" id="searchInput" placeholder="Search for restaurant and food" onkeypress="handleSearch(event)">
+        </div>
+
+        <div class="profile-area">
+            <a href="login.html" class="profile-circle" id="profile-link">👤</a>
+        </div>
+    </header>
+
+    <section class="page-heading">
+        <h2 id="restaurant-title">Restaurant</h2>
+        <p id="restaurant-subtitle">Restaurant menu</p>
+    </section>
+
+    <section class="menu-grid" id="restaurant-items">
+    </section>
+
+    <div class="bottom-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodie Hub - Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showUser(); loadOrderSummary()">
+
+    <header class="topbar simple-topbar">
+        <div class="logo-area">
+            <div class="logo-box">FH</div>
+            <h1>Foodie Hub</h1>
+        </div>
+    </header>
+
+    <section class="page-heading">
+        <h2>Place Your Order</h2>
+        <p>Enter your details</p>
+    </section>
+
+    <section class="form-box">
+        <div id="order-summary" style="margin-bottom: 20px;"></div>
+
+        <form onsubmit="placeOrder(event)">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="text" id="address" placeholder="Enter your address" required>
+            <input type="text" id="phone" placeholder="Enter your phone number" required>
+            <button type="submit">Place Order</button>
+        </form>
+
+        <p id="order-message"></p>
+    </section>
+
+    <div class="bottom-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
