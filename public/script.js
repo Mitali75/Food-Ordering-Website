@@ -215,8 +215,8 @@ function loadMenuPage() {
         menuTitle.textContent = "Pizza Menu";
         menuSubtitle.textContent = "Choose your favourite pizza";
         items = [
-            { name: "Cheese Pizza", price: 250, icon: "🍕", desc: "Cheesy and delicious pizza" },
-            { name: "Veg Pizza", price: 220, icon: "🍕", desc: "Veg loaded pizza" },
+            { name: "Cheesy Delight Pizza", price: 250, icon: "🍕", desc: "Cheesy and delicious pizza" },
+            { name: "Veg Pizza", price: 230, icon: "🍕", desc: "Veg loaded pizza" },
             { name: "Margherita Pizza", price: 240, icon: "🍕", desc: "Classic margherita" }
         ];
     } else if (category === "Burger") {
@@ -255,7 +255,7 @@ function loadMenuPage() {
         menuTitle.textContent = "Our Menu";
         menuSubtitle.textContent = "Choose your favourite food";
         items = [
-            { name: "Cheese Pizza", price: 250, icon: "🍕", desc: "Cheesy and delicious pizza" },
+            { name: "Cheesy Delight Pizza", price: 250, icon: "🍕", desc: "Cheesy and delicious pizza" },
             { name: "Classic Burger", price: 180, icon: "🍔", desc: "Juicy burger" },
             { name: "Hakka Noodles", price: 160, icon: "🍜", desc: "Hot and spicy noodles" }
         ];
