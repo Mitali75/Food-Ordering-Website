@@ -35,7 +35,7 @@ body {
 .logo-box {
     width: 48px;
     height: 48px;
-    background-color: #ff6b00;
+    background-color: #007bff;
     color: white;
     border-radius: 12px;
     display: flex;
@@ -47,7 +47,7 @@ body {
 
 .logo-area h1 {
     font-size: 32px;
-    color: #ff6b00;
+    color: #007bff;
 }
 
 .location-area {
